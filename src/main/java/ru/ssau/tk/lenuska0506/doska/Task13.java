@@ -5,6 +5,7 @@ class Main1 {
     public static void main(String[] s) {
         Point o = new Point(1,4,5);
         Point o1 = new Point(2,3,4);
+
     }
 };
 
