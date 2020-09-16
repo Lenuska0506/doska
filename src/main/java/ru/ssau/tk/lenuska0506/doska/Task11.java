@@ -65,10 +65,10 @@ class Person {
 }
 class Main2 {
     public static void main(String[] s) {
-        Person1 o = new Person1();
-        Person1 o1 = new Person1("х","e");
-        Person1 o2 = new Person1(0);
-        Person1 o3 = new Person1("х","e",0);
+        Person o = new Person();
+        Person o1 = new Person("х","e");
+        Person o2 = new Person(0);
+        Person o3 = new Person("х","e",0);
         System.out.println();
         System.out.println();
     }
