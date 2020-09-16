@@ -70,7 +70,7 @@ class Main2 {
         Person o2 = new Person(0);
         Person o3 = new Person("х","e",0);
         System.out.println();
-
+        System.out.println();
     }
 };
 
