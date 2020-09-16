@@ -14,25 +14,28 @@ class Main {
 };
 
 class Person {
-    private  int passportId;
-    private  String firstName ;
-    private  String lastName ;
+    private int passportId;
+    private String firstName;
+    private String lastName;
+
     public Person() {
-        passportId=0;
-        firstName="io";
-        lastName="poi";
+        passportId = 0;
+        firstName = "io";
+        lastName = "poi";
     }
 
-    public Person(String firstName1,String lastName1) {
+    public Person(String firstName1, String lastName1) {
         firstName = firstName1;
         lastName = lastName1;
         passportId = 0;
     }
-    public Person(  String firstName1,  String lastName1,int passportId1) {
+
+    public Person(String firstName1, String lastName1, int passportId1) {
         firstName = firstName1;
         lastName = lastName1;
-        passportId=passportId1;
+        passportId = passportId1;
     }
+
     public Person(int passportId1) {
         firstName = "123";
         lastName = "lastName1";
@@ -55,6 +58,7 @@ class Person {
     public String getLastName() {
         return lastName;
     }
+
     public void setPassportId(int passportId1) {
         passportId = passportId1;
     }
