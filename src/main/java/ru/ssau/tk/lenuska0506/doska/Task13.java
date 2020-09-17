@@ -49,3 +49,14 @@ class Points {
         return z;
     }
 }
+class Main3 {
+    public static void main(String[] s) {
+        Point y = new Point(1,3,3);
+        Point x = new Point(4,5,6);
+        Point z = new Point(9,3,3);
+        z=Points.sum(x,y);
+        z=Points.subtract(x,y);
+        z=Points.multiply(x,y);
+        z=Points.divide(x,y);
+    }
+}
