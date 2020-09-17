@@ -25,7 +25,9 @@ class Point {
 
 
 class Points {
+    private Points ( ) {
 
+    }
 
     public static Point sum(Point x, Point y) {
         Point z = new Point(x.x + y.x, x.y + y.y, x.z + y.z);
