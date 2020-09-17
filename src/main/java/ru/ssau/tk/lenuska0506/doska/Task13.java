@@ -22,3 +22,28 @@ class Point {
 
 
 }
+
+
+class Points {
+
+
+    public static Point sum(Point x, Point y) {
+        Point z = new Point(x.x + y.x, x.y + y.y, x.z + y.z);
+        return z;
+    }
+
+    public static Point subtract(Point x, Point y) {
+        Point z = new Point(x.x - y.x, x.y - y.y, x.z - y.z);
+        return z;
+    }
+
+    public static Point multiply(Point x, Point y) {
+        Point z = new Point(x.x * y.x, x.y * y.y, x.z * y.z);
+        return z;
+    }
+
+    public static Point divide(Point x, Point y) {
+        Point z = new Point(x.x / y.x, x.y / y.y, x.z / y.z);
+        return z;
+    }
+}
