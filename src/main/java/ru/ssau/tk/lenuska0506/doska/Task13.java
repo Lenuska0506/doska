@@ -23,12 +23,10 @@ class Point {
 
 }
 
-
 class Points {
     private Points ( ) {
 
     }
-
 
     public static Point enlarge(Point x, double y) {
         Point z = new Point(x.x * y, x.y * y, x.z * y);
@@ -64,5 +62,14 @@ class Main3 {
         z=Points.subtract(x,y);
         z=Points.multiply(x,y);
         z=Points.divide(x,y);
+    }
+}
+class Main4 {
+    public static void main(String[] s) {
+        double y = 4;
+        Point x = new Point(4, 5, 6);
+        Point z = new Point(9, 3, 3);
+        z =Points.enlarge(x,y);
+
     }
 }
