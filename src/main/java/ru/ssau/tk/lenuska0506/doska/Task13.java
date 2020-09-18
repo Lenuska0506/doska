@@ -29,6 +29,12 @@ class Points {
 
     }
 
+
+    public static Point enlarge(Point x, double y) {
+        Point z = new Point(x.x * y, x.y * y, x.z * y);
+        return z;
+    }
+
     public static Point sum(Point x, Point y) {
         Point z = new Point(x.x + y.x, x.y + y.y, x.z + y.z);
         return z;
