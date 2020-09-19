@@ -56,6 +56,11 @@ class Points {
         Point z = new Point(x.x / y.x, x.y / y.y, x.z / y.z);
         return z;
     }
+
+    public static double length(Point x ) {
+        return x.length();
+
+    }
 }
 class Main3 {
     public static void main(String[] s) {
