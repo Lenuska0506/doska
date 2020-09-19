@@ -1,5 +1,5 @@
-package ru.ssau.tk.lenuska0506.doska;public class Task13 {
-}
+package ru.ssau.tk.lenuska0506.doska;
+import static java.lang.Math.*;
 
 class Main1 {
     public static void main(String[] s) {
@@ -20,6 +20,10 @@ class Point {
         z = z1;
     }
 
+    public double length( ){
+        double d=sqrt(Math.pow(x,2)+Math.pow(y,2)+Math.pow(z,2) );
+        return d ;
+    }
 
 }
 
@@ -71,5 +75,5 @@ class Main4 {
         Point z = new Point(9, 3, 3);
         z =Points.enlarge(x,y);
 
-    }
+            }
 }
