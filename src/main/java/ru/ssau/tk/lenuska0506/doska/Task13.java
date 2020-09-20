@@ -106,3 +106,10 @@ class Main6 {
         System.out.println(o1);
     }
 };
+class Main7 {
+    public static void main(String[] s) {
+        Point o = new Point(1,4,5);
+        Point o1 = Points.opposite(o);
+        System.out.println(o1);
+    }
+};
