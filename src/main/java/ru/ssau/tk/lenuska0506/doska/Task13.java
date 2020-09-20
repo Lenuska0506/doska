@@ -36,7 +36,10 @@ class Points {
         Point z = new Point(x.x * y, x.y * y, x.z * y);
         return z;
     }
-
+    public static Point opposite(Point x) {
+        Point z = new Point(x.x * (-1), x.y * (-1), x.z * (-1));
+        return z;
+    }
 
 
     public static Point inverse(Point x) {
