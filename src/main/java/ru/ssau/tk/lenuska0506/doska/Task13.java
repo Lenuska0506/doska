@@ -37,6 +37,13 @@ class Points {
         return z;
     }
 
+
+
+    public static Point inverse(Point x) {
+        Point z = new Point(1/x.x , 1/x.y , 1/x.z);
+        return z;
+    }
+
     public static Point sum(Point x, Point y) {
         Point z = new Point(x.x + y.x, x.y + y.y, x.z + y.z);
         return z;
