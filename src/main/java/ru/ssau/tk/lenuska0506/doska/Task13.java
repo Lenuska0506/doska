@@ -95,6 +95,8 @@ class Main4 {
 class Main5 {
     public static void main(String[] s) {
         Point o = new Point(1,4,5);
-        System.out.println(Points.length(o));
+        double o1 = Points.length(o);
+        System.out.println(o1);
     }
 };
+
