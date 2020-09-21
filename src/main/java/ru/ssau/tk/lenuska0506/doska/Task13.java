@@ -116,3 +116,11 @@ class Main7 {
         System.out.println(o1);
     }
 };
+class Main8 {
+    public static void main(String[] s) {
+        Point y = new Point(4, 5, 6);
+        Point x = new Point(4,5,6);
+       double z=Points.scalarProduct(x,y);
+        System.out.println(z);
+    }
+};
