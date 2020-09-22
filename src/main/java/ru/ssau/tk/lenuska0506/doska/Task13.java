@@ -35,6 +35,11 @@ class Points {
        double z = x.x * y.x+x.y * y.y+x.z * y.z;
         return z;
     }
+    public static Point vectorProduct(Point x, Point y) {
+        Point z = new Point(x.y * y.z-y.y * x.z,-x.x * y.z+y.x+y.z,x.x*y.y-y.x*x.y);
+        return z;
+    }
+
     public static Point enlarge(Point x, double y) {
         Point z = new Point(x.x * y, x.y * y, x.z * y);
         return z;
