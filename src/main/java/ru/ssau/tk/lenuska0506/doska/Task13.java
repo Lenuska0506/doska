@@ -129,3 +129,11 @@ class Main8 {
         System.out.println(z);
     }
 };
+class Main9 {
+    public static void main(String[] s) {
+        Point y = new Point(4, 5, 6);
+        Point x = new Point(4,5,6);
+        Point z=Points.vectorProduct(x,y);
+        System.out.println(z);
+    }
+};
