@@ -1,14 +1,15 @@
 import static java.lang.Math.sqrt;
 
 
- class  boss {
+  class   boss {
      public  int yt;
 
-     final synchronized int getYt() {
+      strictfp public int getYt() {
          return yt;
      }
 
  }
+
 
 
 
