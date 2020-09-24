@@ -4,7 +4,7 @@ import static java.lang.Math.sqrt;
  class  boss {
     public  int tuz;
 
-    public strictfp double gettuz() {
+    public synchronized double gettuz() {
         return tuz;
     }
 }
