@@ -2,14 +2,13 @@ import static java.lang.Math.sqrt;
 
 
  class  boss {
-     public  int yt;
+     public static int yt;
 
-     final private int getYt() {
+     final static int getYt() {
          return yt;
      }
 
  }
-
 
 
 
