@@ -42,7 +42,12 @@ class Person {
         passportId = passportId1;
     }
 
-
+    public void setName(String firstName1) {
+        firstName = firstName1;
+    }
+    public String  getName() {
+        return firstName;
+    }
     public void setFirstName(String firstName1) {
         firstName = firstName1;
     }
