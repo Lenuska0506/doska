@@ -18,6 +18,10 @@ public abstract class Operation {
 
         @Override
         public double apply(double number) {
+                if(number < 0){
+                     return 0;
+                }
+                else
             return Math.sqrt(number);
         }
     }
