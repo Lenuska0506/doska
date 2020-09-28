@@ -7,7 +7,7 @@ public abstract class Operation {
     };
 
 
-    public  class IdenticalOperation extends Operation {
+    public static class IdenticalOperation extends Operation {
 
         @Override
         public double apply(double number) {
