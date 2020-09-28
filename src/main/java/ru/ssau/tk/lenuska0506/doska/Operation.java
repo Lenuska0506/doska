@@ -2,6 +2,10 @@ package ru.ssau.tk.lenuska0506.doska;
 
 public abstract class Operation {
    public abstract  double apply(double number);
+   public double  applyTriple(double number) {
+       return apply(apply(apply(number)));
+    };
+
 
     public  class IdenticalOperation extends Operation {
 
