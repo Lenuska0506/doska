@@ -25,7 +25,7 @@ public abstract class Operation {
             return Math.sqrt(number);
         }
     }
-    public  class TangentOperation extends Operation {
+    public static class TangentOperation extends Operation {
 
         @Override
         public double apply(double number) {
