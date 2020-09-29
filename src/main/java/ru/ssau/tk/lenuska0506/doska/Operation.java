@@ -14,7 +14,7 @@ public abstract class Operation {
             return number;
         }
     }
-    public  class SqrtOperation extends Operation {
+    public static class SqrtOperation extends Operation {
 
         @Override
         public double apply(double number) {
