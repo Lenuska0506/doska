@@ -6,10 +6,11 @@ import static org.testng.Assert.*;
 
 public class NamedPointTest {
     NamedPoint namedPoint= new NamedPoint();
-
+    NamedPoint namedPoint1= new NamedPoint(4,4,2,"kola");
     @Test
     public void testGetName() {
             assertEquals(namedPoint.getName(),"Origin");
+        assertEquals(namedPoint1.getName(),"kola");
     }
 
 }
