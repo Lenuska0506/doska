@@ -24,5 +24,16 @@ class task24{
         return array;
     }
 }
+class task25{
+    public  int[] setNumber(int size) {
+        int[] array = new int[size];
+
+        for (int i = 0; i < array.length - 1; i++) {
+            array[i] = i*i;
+
+        }
+        return array;
+    }
+}
 
 
