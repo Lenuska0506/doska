@@ -17,6 +17,17 @@ class Person {
     private int passportId;
     private String firstName;
     private String lastName;
+    private Gender gender;
+
+    public void setGender(Gender gender) {
+        this.gender = gender;
+    }
+
+    public Gender getGender() {
+        return gender;
+    }
+
+
 
     public Person() {
         passportId = 0;
@@ -37,6 +48,7 @@ class Person {
     }
 
     public Person(int passportId1) {
+
         firstName = "123";
         lastName = "lastName1";
         passportId = passportId1;
