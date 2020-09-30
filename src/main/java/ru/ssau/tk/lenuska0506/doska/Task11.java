@@ -35,16 +35,18 @@ class Person {
         lastName = "poi";
     }
 
-    public Person(String firstName1, String lastName1) {
+    public Person(String firstName1, String lastName1,Gender gender) {
         firstName = firstName1;
         lastName = lastName1;
         passportId = 0;
+        this.gender=gender;
     }
 
-    public Person(String firstName1, String lastName1, int passportId1) {
+    public Person(String firstName1, String lastName1, int passportId1,Gender gender) {
         firstName = firstName1;
         lastName = lastName1;
         passportId = passportId1;
+        this.gender=gender;
     }
 
     public Person(int passportId1) {
@@ -84,14 +86,4 @@ class Person {
         return passportId;
     }
 }
-class Main2 {
-    public static void main(String[] s) {
-        Person o = new Person();
-        Person o1 = new Person("х","e");
-        Person o2 = new Person(0);
-        Person o3 = new Person("х","e",0);
-        System.out.println();
-        System.out.println();
-    }
-};
 
