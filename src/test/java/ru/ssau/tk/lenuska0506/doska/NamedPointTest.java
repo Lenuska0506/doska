@@ -14,4 +14,10 @@ public class NamedPointTest {
         assertEquals(namedPoint1.getName(),"kola");
     }
 
+    @Test
+    public void testReset() {
+        NamedPoint point = new NamedPoint();
+        point.reset();
+        assertEquals(point.name, "Absent");
+    }
 }
