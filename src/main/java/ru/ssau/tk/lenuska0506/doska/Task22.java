@@ -55,5 +55,14 @@ class Task29 {
         return arr;
     }
 }
+class Task214 {
+
+    static void setarr(double[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = -((Double )arr[i]) ;
+        }
+    }
+}
+
 
 
