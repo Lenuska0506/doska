@@ -1,7 +1,17 @@
 package ru.ssau.tk.lenuska0506.doska;
+interface Resettable {
+    void reset() ;
 
-public class NamedPoint extends Point {
+}
+
+public class NamedPoint extends Point implements Resettable {
     public String name;
+    @Override
+    public void reset() {
+        name= "Absent";
+
+    }
+
     public NamedPoint( double x1, double y1, double z1){
             super(x1, y1, z1);
         }
@@ -20,4 +30,6 @@ public class NamedPoint extends Point {
         this.name = name;
     }
 }
+
+
 
