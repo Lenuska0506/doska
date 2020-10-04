@@ -59,7 +59,7 @@ class Task214 {
 
     static void setarr(double[] arr) {
         for (int i = 0; i < arr.length; i++) {
-            arr[i] = -((Double )arr[i]) ;
+            arr[i] = -(arr[i]);
         }
     }
 }
