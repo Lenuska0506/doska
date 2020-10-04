@@ -35,5 +35,14 @@ class Task29 {
         return arr;
     }
 }
-
+  class  Task21 {
+    public static int[] setNumber( int N) {
+        int[] arr = new int[N];
+        for (int i = 1; i < arr.length; i++) {
+            arr [i] = i;
+        }
+        return arr;
+    }
+}
+    
 
