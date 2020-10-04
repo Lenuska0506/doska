@@ -46,7 +46,7 @@ class Task29 {
 }
  class Task210 {
 
-    static double[] getGeometr(int n, double b0, double q) {
+    static double[] setGeometr(int n, double b0, double q) {
         double[] arr = new double[n];
         arr[0] = b0;
         for (int i = 1; i < arr.length; i++) {
