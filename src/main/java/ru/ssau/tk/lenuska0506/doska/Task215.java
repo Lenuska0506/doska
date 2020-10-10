@@ -20,3 +20,14 @@ public class Task215 {
         return false;
     }
 }
+class Task217 {
+    static int number(int[] arr) {
+        int count = 0;
+        for (int i : arr) {
+            if (arr[i] % 2 == 0) {
+                count+=1;
+            }
+        }
+        return count;
+    }
+}
