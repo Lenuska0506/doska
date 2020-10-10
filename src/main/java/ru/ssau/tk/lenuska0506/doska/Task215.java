@@ -31,3 +31,17 @@ class Task217 {
         return count;
     }
 }
+ class Task218 {
+    static Integer Maxvalue(int[] arr) {
+        if (arr.length == 0) {
+            return null;
+        }
+        int max = 0;
+        for (int i : arr) {
+            if (arr[i + 1] > arr[i]) {
+                max=  arr[i + 1];
+            }
+        }
+        return max;
+    }
+}
