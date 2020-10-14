@@ -41,7 +41,9 @@ class Task217 {
             if (arr[i + 1] > arr[i]) {
                 max=  arr[i + 1];
             }
+
         }
+
         return max;
     }
 }
@@ -57,3 +59,14 @@ class Task217 {
          return sum;
      }
  }
+ class  Task222 {
+    static   int  getIndexVhodnogoN ( int [] arr , int  N ) {
+        int k =  0 ;
+        for ( int i =  0 ; i < arr . length; i ++ ) {
+            if (arr [i] == N) {
+                k = i;
+            }
+        }
+        return k;
+    }
+}
