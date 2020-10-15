@@ -101,3 +101,15 @@ class Task217 {
 
     }
 }
+ class Task225 {
+    static int[] getArrBitovoeOtricanie(int[] arr) {
+        int[] arrnot = new int[arr.length];
+        for (int i = 0; i < arrnot.length; i++) {
+            arrnot[i] = arr[i];
+        }
+        for (int i = 0; i < arrnot.length; i++) {
+            arrnot[i] = ~arrnot[i];
+        }
+        return arrnot;
+    }
+}
