@@ -122,3 +122,10 @@ class Task217 {
         return arrboolean ;
     }
 }
+ class Task233 {
+    static void getArrSting(String[] arr) {
+        for (String i : arr) {
+            System.out.println(i);
+        }
+    }
+}
