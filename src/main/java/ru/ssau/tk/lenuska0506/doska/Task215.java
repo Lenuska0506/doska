@@ -125,7 +125,7 @@ class Task217 {
  class Task233 {
     static void getArrSting(String[] arr) {
         for (String i : arr) {
-            System.out.println(i);
+            System.out.print(i);
         }
     }
 }
