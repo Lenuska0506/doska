@@ -138,3 +138,16 @@ class Task217 {
         return arr1;
     }
 }
+ class Task213 {
+    public static int[] getArr(int n) {
+        if (n == 0){
+            return null;
+        }
+        int[] arr = new int[n];
+        for (int i = 0; i < Math.ceil((double)n/2); i++){
+            arr[i] = i+1;
+            arr[n-i-1] = i+1;
+        }
+        return arr;
+    }
+}
