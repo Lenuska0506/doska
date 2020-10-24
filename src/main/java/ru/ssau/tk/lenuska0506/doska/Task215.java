@@ -202,3 +202,10 @@ class Task217 {
         return arr;
     }
 }
+ class Task31 {
+    public void setString(String str) {
+        for (int i = 0; i < str.length(); i++) {
+            System.out.println(str.charAt(i));
+        }
+    }
+}
