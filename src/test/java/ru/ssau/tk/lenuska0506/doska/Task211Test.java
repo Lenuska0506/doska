@@ -8,9 +8,9 @@ public class Task211Test {
 double DELTA=0.0001;
     @Test
     public void testGetdelitei() {
-        int[] Arr1 = Task211.getdelitei(7);
+        int[] Arr1 = Task211.getdelitei(3);
         assertEquals(Arr1[0], 1, 0.0001);
-        assertEquals(Arr1[1], 7, 0.0001);
+        assertEquals(Arr1[1], 3, 0.0001);
 
 
     }
