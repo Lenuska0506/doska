@@ -218,7 +218,8 @@ class Task32 {
     }
 }
  class Task33 {
-    public static void main(String[] args) {
+    public static String main(String[] args) {
+        String strin = "dobavila svoy kommentaruy";
         String str = "wow";
         String str1 = new String(str);
         String str2 = "wow1";
@@ -231,5 +232,6 @@ class Task32 {
         if (str.equals(str1)) {
             System.out.println("str.equals(str1)");
         }
+        return strin;
     }
 }
