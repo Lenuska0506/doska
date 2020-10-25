@@ -209,3 +209,11 @@ class Task217 {
         }
     }
 }
+class Task32 {
+    public void getStr(String str){
+        byte[] bytes = str.getBytes();
+        for (byte byt:bytes) {
+            System.out.println(byt);
+        }
+    }
+}
