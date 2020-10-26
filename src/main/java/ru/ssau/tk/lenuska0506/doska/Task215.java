@@ -235,3 +235,8 @@ class Task32 {
         return strin;
     }
 }
+ class Task37 {
+    static int getIndexStr(String Str1,String Str2){
+        return Str1.indexOf(Str2);
+    }
+}
