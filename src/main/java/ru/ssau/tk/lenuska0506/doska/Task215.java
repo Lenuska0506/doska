@@ -240,3 +240,14 @@ class Task32 {
         return Str1.indexOf(Str2);
     }
 }
+ class Task310 {
+    static int set(String[] arr, String prefix, String postfix) {
+        int c = 0;
+        for (String string : arr) {
+            if (string.startsWith(prefix) && string.endsWith(postfix)) {
+                c++;
+            }
+        }
+        return c;
+    }
+}
