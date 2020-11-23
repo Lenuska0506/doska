@@ -43,3 +43,12 @@ class Task312 {
         System.out.println(Charset.defaultCharset());
     }
 }
+ class Task321 {
+    public static void main(String[] args) {
+        String str = "ПАМАГИТЕ СДАТЬ ЭТОТ ТЕОРМЕХ Я БОЛЬШЕ НЕ МОГУ";
+
+        StringBuilder strBuilder = new StringBuilder(str);
+
+            }
+        }
+
