@@ -51,4 +51,11 @@ class Task312 {
 
             }
         }
+ class Task38 {
+     static int indexof(String str1,String str2){
+         return str1.indexOf(str2, str1.length()/2);
+     }
+     }
+
+
 
