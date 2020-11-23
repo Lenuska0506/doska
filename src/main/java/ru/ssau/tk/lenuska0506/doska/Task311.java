@@ -1,5 +1,7 @@
 package ru.ssau.tk.lenuska0506.doska;
 
+import java.nio.charset.Charset;
+
 public class Task311 {
     static int theNumberOfStringArray(String[] arr, String prefix, String postfix) {
         int number = 0;
@@ -34,5 +36,10 @@ class Task312 {
             return "";
         }
         return str.substring(from, to);
+    }
+}
+ class Task323 {
+    public static void main(String[] args) {
+        System.out.println(Charset.defaultCharset());
     }
 }
