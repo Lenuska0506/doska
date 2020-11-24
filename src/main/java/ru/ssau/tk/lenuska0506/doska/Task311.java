@@ -56,6 +56,15 @@ class Task312 {
          return str1.indexOf(str2, str1.length()/2);
      }
      }
+     class Task322 {
+    static String getstrNumber(int number) {
+        StringBuilder strNumber = new StringBuilder();
+        for (int i = 0; i < number; i++) {
+            strNumber.append(i);
+        }
+        return strNumber.toString();
+    }
+}
 
 
 
