@@ -6,4 +6,9 @@ public class Task3_20 {
             return String.join(", ", array);
         }
     }
+ class Task3_4 {
+    static boolean palindrom(String str){
+        return str.equals(new StringBuilder(str).reverse().toString());
+    }
+}
 
