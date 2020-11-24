@@ -57,14 +57,14 @@ class Task312 {
      }
      }
      class Task322 {
-    static String getstrNumber(int number) {
-        StringBuilder strNumber = new StringBuilder();
-        for (int i = 0; i < number; i++) {
-            strNumber.append(i);
-        }
-        return strNumber.toString();
-    }
-}
+         static String getstrNumber(int number) {
+             StringBuilder strNumber = new StringBuilder();
+             for (int i = 0; i < number; i++) {
+                 strNumber.append(i);
+             }
+             return strNumber.toString();
+         }
+     }
 
 
 
