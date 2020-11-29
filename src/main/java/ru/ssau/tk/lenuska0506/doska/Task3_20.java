@@ -20,4 +20,12 @@ public class Task3_20 {
                 && str1.equalsIgnoreCase(str2);
     }
 }
+ class Task41 {
+    public static String getObjectPerson(Person obj) {
+        if (obj.getFirstName() == null || obj.getLastName() == null) {
+            throw new NullPointerException();
+        }
+        return obj.toString();
+    }
+}
 
