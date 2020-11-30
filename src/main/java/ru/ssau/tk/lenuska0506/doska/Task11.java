@@ -55,7 +55,10 @@ class Person {
         lastName = "lastName1";
         passportId = passportId1;
     }
-
+    @Override
+    public String toString() {
+        return firstName + (firstName.isEmpty() || lastName.isEmpty() ? "" : " ") + lastName;
+    }
     public void setName(String firstName1) {
         firstName = firstName1;
     }

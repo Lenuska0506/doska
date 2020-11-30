@@ -20,4 +20,6 @@ public class NamedPointTest {
         point.reset();
         assertEquals(point.name, "Absent");
     }
-}
+
+
+    }
