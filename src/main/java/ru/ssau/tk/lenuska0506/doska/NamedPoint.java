@@ -1,4 +1,7 @@
 package ru.ssau.tk.lenuska0506.doska;
+
+import java.util.Objects;
+
 interface Resettable {
     void reset() ;
 
@@ -19,6 +22,12 @@ public class NamedPoint extends Point implements Resettable {
             this(x1, y1, z1);
         this.name=name;
         }
+    @Override
+    public String toString() {
+        if (Objects.equals(null, name)) return super.toString();
+        return name + ": " + super.toString();
+    }
+
     public NamedPoint( ){
         this(0, 0, 0,"Origin");
     }

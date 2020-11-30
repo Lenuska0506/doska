@@ -35,7 +35,7 @@ class Person {
         lastName = "poi";
     }
 
-    public Person(String firstName1, String lastName1,Gender gender) {
+    public Person(String firstName1, String lastName1) {
         firstName = firstName1;
         lastName = lastName1;
         passportId = 0;
