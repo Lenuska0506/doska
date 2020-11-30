@@ -24,6 +24,15 @@ class Point {
         double d=sqrt(Math.pow(x,2)+Math.pow(y,2)+Math.pow(z,2) );
         return d ;
     }
+    @Override
+    public String toString() {
+
+        return "[" +
+                x +", "
+                +y +", "
+                +z +
+                ']';
+    }
 
 }
 
