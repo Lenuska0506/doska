@@ -48,3 +48,17 @@ public class Task3_18  {
         }
     }
 }
+ class Task2_30 {
+    static int[][] getVector(int size) {
+        int[][] arr = new int[size][];
+        int k = 1;
+        for (int i = 0; i < size; i++) {
+            arr[i] = new int[size - i];
+            for (int j = 0; j < size - i; j++) {
+                arr[i][j] = k;
+                k++;
+            }
+        }
+        return arr;
+    }
+}
