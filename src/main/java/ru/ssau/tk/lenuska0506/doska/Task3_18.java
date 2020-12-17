@@ -62,3 +62,17 @@ public class Task3_18  {
         return arr;
     }
 }
+class Task2_32 {
+
+    static void sortWithoutNaN(double[] array) {
+        int k = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (Double.isNaN(array[i])) {
+                k++;
+            }
+        }
+        if (k == 0) {
+            java.util.Arrays.sort(array);
+        }
+    }
+}
