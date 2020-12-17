@@ -76,3 +76,15 @@ class Task2_32 {
         }
     }
 }
+class Task2_34 {
+    static double multiplyNormalNumbers(double[] array) {
+        double multiply = 1;
+        for (Double i : array
+        ) {
+            if (i != 0 & !i.isInfinite() & !i.isNaN()) {
+                multiply *= i;
+            }
+        }
+        return multiply;
+    }
+}
